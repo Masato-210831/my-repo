@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       environment-name:
-        type: environment             # 入力パラメータでEnvironmentsを切り替え
+        type: environment
         default: test
         required: false
         description: Environment name
